@@ -13,8 +13,6 @@
 
 
 
-// import {particleContainer} from "../basic/particleContainer";
-
 window.onload = load;
 
 function load() {

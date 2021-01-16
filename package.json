@@ -30,6 +30,11 @@
     "cz-conventional-changelog": "^3.3.0"
   },
   "dependencies": {
+    "pixi-filters": "^3.2.2",
+    "pixi-layers": "^0.3.0",
+    "pixi-picture": "^2.0.3",
+    "pixi-projection": "^0.3.15",
+    "pixi-spine": "^2.1.11",
     "pixi.js": "^5.3.7"
   }
 }

@@ -46,6 +46,44 @@ import {displacementMapCrawlies} from "../filtersBasic/displacementMapCrawlies";
 import {mouseBlending} from "../filtersAdvanced/mouseBlending";
 import {customFilter} from "../filtersAdvanced/customFilter";
 import {shadertoyFilter} from "../filtersAdvanced/shadertoyFilter";
+import {texturedMeshBasic} from "../meshAndShaders/texturedMeshBasic";
+import {texturedMeshAdvanced} from "../meshAndShaders/texturedMeshAdvanced";
+import {triangle} from "../meshAndShaders/triangle";
+import {coloredTriangle} from "../meshAndShaders/coloredTriangle";
+import {texturedTriangle} from "../meshAndShaders/texturedTriangle";
+import {uniforms} from "../meshAndShaders/uniforms";
+import {sharingGeometry} from "../meshAndShaders/sharingGeometry";
+import {sharingShader} from "../meshAndShaders/sharingShader";
+import {mergingGeometry} from "../meshAndShaders/mergingGeometry";
+import {interleavingGeometry} from "../meshAndShaders/interleavingGeometry";
+import {instancedGeometry} from "../meshAndShaders/instancedGeometry";
+import {shadertoy} from "../meshAndShaders/shadertoy";
+import {multiPassShaderGeneratedMesh} from "../meshAndShaders/multiPassShaderGeneratedMesh";
+import {textureRotate} from "../textures/textureRotate";
+import {renderTextureBasic} from "../textures/renderTextureBasic";
+import {gradientBasic} from "../textures/gradientBasic";
+import {gradientResource} from "../textures/gradientResource";
+import {outline} from "../pluginFilters/outline";
+import {dragon} from "../pluginSpine/dragon";
+import {goblin} from "../pluginSpine/goblin";
+import {pixie} from "../pluginSpine/pixie";
+import {spineboyWalking} from "../pluginSpine/spineboyWalking";
+import {spineboyPro} from "../pluginSpine/spineboyPro";
+import {robot} from "../plugin-dragonbones/robot";
+import {twoDBasics} from "../plugin-projuction/2dBasics";
+import {twoDPlane} from "../plugin-projuction/2dPlane";
+import {twoDPlaneTiling} from "../plugin-projuction/2dPlaneTiling";
+import {twoDQuadProjective} from "../plugin-projuction/2dQuadProjective";
+import {twoDQuadBilinear} from "../plugin-projuction/2dQuadbilinear";
+import {isometryBasics} from "../plugin-projuction/isometryBasics";
+import {threeDCards} from "../plugin-projuction/3dCards";
+import {threeDRunner} from "../plugin-projuction/3dRunner";
+import {bunniesPacker} from "../plugin-projuction/bunniesPacker";
+import {lighting} from "../plugin-layers/lighting";
+import {zOrder} from "../plugin-layers/zOrder";
+import {bringToTop} from "../plugin-layers/bringToTop";
+import {moreBlendModes} from "../plugin-picture/moreBlendModes";
+import {backdrop} from "../plugin-picture/backdrop";
 
 window.onload = load;
 
@@ -98,4 +136,59 @@ function load() {
     // customFilter();
     // shadertoyFilter();
     //====filters advanced end
+    //====mesh and shaders begin
+    // texturedMeshBasic()
+    // texturedMeshAdvanced();
+    // triangle();
+    // coloredTriangle()
+    // texturedTriangle()
+    // uniforms()
+    // sharingGeometry()
+    // sharingShader()
+    // mergingGeometry();
+    // interleavingGeometry()
+    // instancedGeometry();
+    // shadertoy()
+    // multiPassShaderGeneratedMesh()
+    //====mesh and shaders end
+    //====textures begin
+    // textureRotate()
+    // renderTextureBasic()
+    // gradientBasic()
+    // gradientResource()
+    //====textures end
+    //====plugin filters begin
+    // outline()
+    //====plugin filters end
+    //====plugin spine begin
+    // dragon()
+    // goblin()
+    // pixie()
+    // spineboyWalking();
+    // spineboyPro();
+    //====plugin spine end
+    //====plugin dragonbones begin
+    // robot();
+    //====plugin dragonbones end
+    //====plugin projection begin
+    // twoDBasics();
+    // twoDPlane()
+    // twoDPlaneTiling()
+    // twoDQuadProjective()
+    // twoDQuadBilinear()
+    // isometryBasics()
+    // threeDCards()
+    // threeDRunner()
+    // bunniesPacker()
+    //====plugin projection end
+    //====plugin layers begin
+    // lighting()
+    // zOrder()
+    // bringToTop()
+    //====plugin layers end
+    //====plugin picture begin
+    moreBlendModes()
+    backdrop()
+    //====plugin picture end
+
 } // load

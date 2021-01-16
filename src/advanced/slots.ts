@@ -177,7 +177,7 @@ export function slots() {
 // Listen for animate update.
     app.ticker.add(() => {
         const now = Date.now();
-        const remove = [];
+        const remove: any[] = [];
         for (let i = 0; i < tweening.length; i++) {
             const t = tweening[i];
             const phase = Math.min(1, (now - t.start) / t.time);
